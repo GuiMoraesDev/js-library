@@ -1,0 +1,12 @@
+{
+  "name": "js-lib",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "compile": "rm -fr dist/lib && tsc && tsc --build tsconfig.es5.json"
+  },
+  "devDependencies": {
+    "typescript": "^4.8.2"
+  }
+}
